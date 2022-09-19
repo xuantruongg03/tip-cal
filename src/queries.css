@@ -1,0 +1,298 @@
+@media only screen and (max-width: 1440px) {
+    .frames-bill-child{
+        width: 280px;
+    }
+    .money {
+        font-size: 20px;
+    } 
+    .select-tip {
+        width: 280px;
+    }
+    .select-tip-btn,
+    .select-tip-btn-input{
+        font-size: 16px;
+    }
+    .frames-bill-child-person {
+        width: 280px;
+    } 
+    .tip-money{
+        padding-left: 40px;
+        font-size: 40px;
+    }
+    
+    .tip-title{
+        padding-top: 7px;
+        font-size: 16px;
+    }
+    .reset-btn{
+        font-size: 16px;
+    }
+}
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1200px){
+    .frames-bill-child{
+        width: 240px;
+    }
+    .money {
+        font-size: 18px;
+        padding-top: 7px;
+        width: 27%;
+    } 
+    .select-tip {
+        width: 240px;
+    }
+    .select-tip-btn,
+    .select-tip-btn-input{
+        font-size: 14px;
+    }
+    .frames-bill-child-person {
+        width: 240px;
+    } 
+    .tip-money{
+        padding-left: 40px;
+        font-size: 30px;
+    }
+    
+    .tip-title{
+        padding-top: 4px;
+        font-size: 14px;
+    }
+    .tip-title span{
+        font-size: 12px;
+    }
+    .reset-btn{
+        font-size: 14px;
+        margin: 90px 27px 10 27px;
+        height: 35px;
+    }
+}
+
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px){
+    .container{
+        flex-direction: column;
+        height: 670px;
+        top: 50px;
+    }
+    .frames-bill {
+        width: 100%; 
+        margin-left: 0px
+    }
+    .box{
+        width: 100%;
+        position: absolute;
+        top: 350px;
+    }
+    .frames-bill-child{
+        width: 360px;
+    }
+    .money {
+        font-size: 20px;
+        padding-top: 7px;
+        padding-left: 10px;
+        width: 10%;
+    } 
+    .select-tip {
+        width: 360px;
+    }
+    .select-tip-btn,
+    .select-tip-btn-input{
+        font-size: 16px;
+    }
+    .frames-bill-child-person {
+        width: 360px;
+    } 
+    .tip-money{
+        font-size: 30px;
+        width: 40%;
+    }
+    
+    .tip-title{
+        padding-top: 3px;
+        padding-left: 20px;
+        font-size: 16px;
+        width: 60%;
+    }
+    .tip-title span{
+        font-size: 10px;
+    }
+    .reset-btn{
+        font-size: 14px;
+        margin: 60px 33px 30px 33px;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    
+    .container{
+        flex-direction: column;
+        height: 670px;
+        top: 50px;
+    }
+    .frames-bill {
+        width: 100%; 
+        margin-left: 0px
+    }
+    .box{
+        width: 100%;
+        position: absolute;
+        top: 350px;
+    }
+    .frames-bill-child{
+        width: 340px;
+    }
+    .money {
+        font-size: 20px;
+        padding-top: 7px;
+        padding-left: 10px;
+        width: 10%;
+    } 
+    .select-tip {
+        width: 340px;
+    }
+    .select-tip-btn,
+    .select-tip-btn-input{
+        font-size: 16px;
+    }
+    .frames-bill-child-person {
+        width: 340px;
+    } 
+    .tip-money{
+        font-size: 30px;
+        width: 40%;
+    }
+    
+    .tip-title{
+        padding-top: 3px;
+        padding-left: 20px;
+        font-size: 16px;
+        width: 60%;
+    }
+    .tip-title span{
+        font-size: 10px;
+    }
+    .reset-btn{
+        font-size: 14px;
+        margin: 60px 33px 30px 33px;
+        height: 35px;
+    }
+}
+
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px){
+    
+    .container{
+        flex-direction: column;
+        height: 630px;
+        top: 50px;
+    }
+    .frames-bill {
+        width: 100%; 
+        margin-left: 0px
+    }
+    .box{
+        width: 100%;
+        position: absolute;
+        top: 350px;
+    }
+    .frames-bill-child{
+        width: 270px;
+    }
+    .money {
+        font-size: 20px;
+        padding-top: 7px;
+        width: 30%;
+    } 
+    .icon-dollar{
+        width: 70%;
+    }
+    .select-tip {
+        width: 270px;
+    }
+    .select-tip-btn,
+    .select-tip-btn-input{
+        font-size: 14px;
+    }
+    .frames-bill-child-person {
+        width: 270px;
+    } 
+    .tip-money{
+        font-size: 27px;
+        width: 40%;
+    }
+    
+    .tip-title{
+        padding-top: 2px;
+        padding-left: 20px;
+        font-size: 14px;
+        width: 60%;
+    }
+    .tip-title span{
+        font-size: 10px;
+    }
+    .reset-btn{
+        font-size: 14px;
+        margin: 30px 28px 30px 28px;
+        height: 35px;
+    }
+}
+ 
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px){
+    .container{
+        flex-direction: column;
+        height: 600px;
+        top: 50px;
+    }
+    .frames-bill {
+        width: 100%; 
+        margin-left: 0px
+    }
+    .box{
+        width: 100%;
+        position: absolute;
+        top: 350px;
+    }
+    .frames-bill-child{
+        width: 170px;
+    }
+    .money {
+        font-size: 16px;
+        padding-top: 8px;
+        width: 40%;
+    } 
+    .select-tip {
+        width: 170px;
+    }
+    .select-tip-btn,
+    .select-tip-btn-input{
+        font-size: 14px;
+    }
+    .frames-bill-child-person {
+        width: 170px;
+    } 
+    .person {
+        padding-top: 7px;
+        font-size: 18px;
+        width: 13%;
+    } 
+    .tip-money{
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    
+    .tip-title{
+        padding-top: 3px;
+        font-size: 10px;
+    }
+    .tip-title span{
+        font-size: 8px;
+    }
+    .reset-btn{
+        font-size: 14px;
+        margin: 30px 16px 10 16px;
+        height: 35px;
+        padding-top: 5px;
+    }
+}
